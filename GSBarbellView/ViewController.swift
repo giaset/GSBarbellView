@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var barbellView: GSBarbellView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        barbellView = GSBarbellView(frame: view.frame)
+        barbellView.setWeight(225)
+        
+        view.addSubview(barbellView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

@@ -13,6 +13,7 @@
 		68D2C64819C4FC790047D40C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2C64719C4FC790047D40C /* Images.xcassets */; };
 		68D2C64B19C4FC790047D40C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D2C64919C4FC790047D40C /* LaunchScreen.xib */; };
 		68D2C65719C4FC790047D40C /* GSBarbellViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2C65619C4FC790047D40C /* GSBarbellViewTests.swift */; };
+		68D2C66119C4FCDE0047D40C /* GSBarbellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2C66019C4FCDE0047D40C /* GSBarbellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		68D2C65019C4FC790047D40C /* GSBarbellViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSBarbellViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D2C65519C4FC790047D40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68D2C65619C4FC790047D40C /* GSBarbellViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSBarbellViewTests.swift; sourceTree = "<group>"; };
+		68D2C66019C4FCDE0047D40C /* GSBarbellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBarbellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				68D2C64019C4FC790047D40C /* AppDelegate.swift */,
 				68D2C64219C4FC790047D40C /* ViewController.swift */,
+				68D2C66019C4FCDE0047D40C /* GSBarbellView.swift */,
 				68D2C64419C4FC790047D40C /* Main.storyboard */,
 				68D2C64719C4FC790047D40C /* Images.xcassets */,
 				68D2C64919C4FC790047D40C /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D2C66119C4FCDE0047D40C /* GSBarbellView.swift in Sources */,
 				68D2C64319C4FC790047D40C /* ViewController.swift in Sources */,
 				68D2C64119C4FC790047D40C /* AppDelegate.swift in Sources */,
 			);
