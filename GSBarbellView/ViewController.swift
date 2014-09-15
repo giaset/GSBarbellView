@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         barbellView = GSBarbellView(frame: view.frame)
-        barbellView.setWeight(225)
+        barbellView.setWeight(295)
         
         view.addSubview(barbellView)
     }

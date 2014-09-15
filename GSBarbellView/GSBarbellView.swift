@@ -146,7 +146,45 @@ class GSBarbellView: UIView {
     func setWeight(weight: CGFloat) {
         if (weight % 5 == 0) {
             var perSide = (weight-45)/2
+            
+            var numberOf45s = 0
+            var numberOf25s = 0
+            var numberOf10s = 0
+            var numberOf5s = 0
+            var numberOf2point5s = 0
+            
             println(perSide)
+            
+            while (perSide >= 45) {
+                numberOf45s++
+                perSide -= 45
+            }
+            
+            while (perSide >= 25) {
+                numberOf25s++
+                perSide -= 25
+            }
+            
+            while (perSide >= 10) {
+                numberOf10s++
+                perSide -= 10
+            }
+            
+            while (perSide >= 5) {
+                numberOf25s++
+                perSide -= 5
+            }
+            
+            while (perSide >= 2.5) {
+                numberOf2point5s++
+                perSide -= 2.5
+            }
+            
+            println("\(numberOf45s) x 45")
+            println("\(numberOf25s) x 25")
+            println("\(numberOf10s) x 10")
+            println("\(numberOf5s) x 5")
+            println("\(numberOf2point5s) x 2.5")
         }
     }
     
